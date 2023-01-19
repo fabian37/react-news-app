@@ -1,0 +1,17 @@
+.headerLeftContainer {
+	align-items: center;
+	display: flex;
+	gap: 0.6em;
+	justify-content: center;
+	width: 25%;
+}
+
+i {
+	color: #444;
+	font-size: 1.1em;
+}
+
+.socialMediaContainer {
+	align-items: center;
+	display: flex;
+}

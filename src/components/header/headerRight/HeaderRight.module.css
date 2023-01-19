@@ -1,0 +1,39 @@
+.avatar {
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.headerRightContainer {
+	align-items: center;
+	display: flex;
+	gap: 1em;
+	justify-content: center;
+	width: 25%;
+}
+
+.logout {
+	background-color: white;
+	border: 1px solid white;
+	font-family: Josefin Sans, sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	height: 2.8em;
+	transition: 0.3s ease-in-out;
+}
+
+.logout:hover {
+	border-bottom: 1px solid #be9656;
+	color: #be9656;
+}
+
+.navItem {
+	color: #000000;
+	transition: 0.3s ease-in-out;
+}
+
+.navItem:hover {
+	color: #858585;
+}

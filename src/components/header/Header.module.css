@@ -1,0 +1,16 @@
+.headerContainer {
+	align-items: center;
+	background-color: white;
+	box-shadow: 0 0.1em 1em 0.1em rgba(56, 55, 55, 0.04);
+	display: flex;
+	font-family: Josefin Sans, sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	height: 2.8em;
+	justify-content: space-between;
+	padding: 0 1em;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
