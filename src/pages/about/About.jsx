@@ -7,8 +7,8 @@ export const About = () => {
 			<div className={styles.cardContainer}>
 				<img className={styles.aboutImage} src={image} alt='selfie' />
 				<p className={styles.description}>
-					Hi there, I&apos;m Gomez, I from Colombia, right now I&apos;m a
-					frontend developer and this app was created using React.
+					Hi there, I&apos;m Fabian Gomez, I&apos;m Colombian, right now
+					I&apos;m a frontend developer and this app was created using React.
 				</p>
 				<span className={styles.follow}>Follow me on social media</span>
 				<div className={styles.socialMedia}>
