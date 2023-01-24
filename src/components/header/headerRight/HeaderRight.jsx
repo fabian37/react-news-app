@@ -47,10 +47,10 @@ export const HeaderRight = () => {
 					</>
 				) : (
 					<>
-						<Link className={styles.navItem} to='/login'>
+						<Link className={styles.navItem} to='/login' onClick={showNavbar}>
 							LOG IN
 						</Link>
-						<Link className={styles.navItem} to='/signup'>
+						<Link className={styles.navItem} to='/signup' onClick={showNavbar}>
 							SING UP
 						</Link>
 					</>
