@@ -13,6 +13,7 @@
 		"pre-commit": "pnpm run format && pnpm run lint"
 	},
 	"dependencies": {
+		"@emailjs/browser": "^3.10.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-is": "16.8.0",
