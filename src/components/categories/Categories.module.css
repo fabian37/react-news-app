@@ -1,0 +1,48 @@
+.category {
+	background-color: rgb(246, 246, 246);
+	border: 1px solid rgb(246, 246, 246);
+	color: #444;
+	font-family: Josefin Sans, sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	transition: 0.3s ease-in-out;
+}
+
+.category:hover {
+	border-bottom: 1px solid #be9656;
+	color: #be9656;
+}
+
+.categoriesContainer {
+	background-color: rgb(246, 246, 246);
+	border-radius: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	height: fit-content;
+	justify-content: space-around;
+	margin: 1em 0;
+	max-width: 66em;
+	padding: 1em;
+	width: 80%;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 4em;
+	width: 100%;
+}
+
+.subtitle {
+	color: #444;
+	font-family: Varela Round, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+.title {
+	font-family: Varela Round, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	margin-bottom: 1em;
+}

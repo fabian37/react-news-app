@@ -7,10 +7,16 @@
 	font-size: 1em;
 	font-weight: 300;
 	height: 2.8em;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 0 1em;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
+}
+
+@media (max-width: 718px) {
+	.headerContainer {
+		justify-content: space-between;
+	}
 }

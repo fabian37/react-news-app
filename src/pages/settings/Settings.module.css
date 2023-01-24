@@ -57,13 +57,9 @@
 }
 
 .settings {
-	display: flex;
 	max-width: 66em;
-}
-
-.settingsWrapper {
-	flex: 3;
 	padding: 1em;
+	width: 100%;
 }
 
 .settingsTitle {
@@ -74,9 +70,9 @@
 
 .settingsTitleUpdate {
 	color: #444;
+	font-family: Varela Round, Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	margin-bottom: 20px;
-	font-family: Varela Round, Arial, Helvetica, sans-serif;
 }
 
 .settingsTitleDelete {
@@ -84,6 +80,7 @@
 	cursor: pointer;
 	font-family: Varela Round, Arial, Helvetica, sans-serif;
 	font-size: 0.7em;
+	text-align: end;
 }
 
 .settingsForm {

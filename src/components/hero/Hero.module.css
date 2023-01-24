@@ -7,8 +7,9 @@
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	margin-top: 10.6em;
+	margin-top: 2em;
 	position: relative;
+	width: 100%;
 }
 
 .img {
@@ -25,11 +26,11 @@
 
 .titleContainer {
 	align-items: center;
-	color: #444;
+	color: rgb(255, 255, 255);
 	display: flex;
 	font-size: 18px;
 	flex-direction: column;
 	font-family: Lora, serif;
 	position: absolute;
-	top: -17%;
+	top: 40%;
 }
