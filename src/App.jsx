@@ -9,6 +9,7 @@ import { Settings } from './pages/settings/Settings';
 import './App.css';
 import { get } from './utils/getInfo';
 import { Contact } from './pages/contact/Contact';
+import { About } from './pages/about/About';
 
 export const context = createContext();
 
@@ -46,7 +47,7 @@ const App = () => {
 				<Header />
 				<Routes>
 					<Route path='/' element={user ? <Home /> : <Login />} />
-					<Route path='/about' element={<Home />} />
+					<Route path='/about' element={<About />} />
 					<Route path='/contact' element={<Contact />} />
 					<Route path='/login' element={user ? <Home /> : <Login />} />
 					<Route path='/signup' element={user ? <Home /> : <Signup />} />
