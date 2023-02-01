@@ -13,4 +13,4 @@ Hi there, I'm Fabian and I developed this news app using React ⚛
 
 ### DEPLOY
 
-https://blog-ui-template-fabian37.vercel.app/
+https://react-news-app-gamma.vercel.app/
