@@ -8,10 +8,10 @@ export const Contact = () => {
 		e.preventDefault();
 		emailjs
 			.sendForm(
-				import.meta.env.VITE_SERVICE_ID,
-				import.meta.env.VITE_TEMPLATE_ID,
+				'service_6gpsp38',
+				'template_eym39kf',
 				form.current,
-				import.meta.env.VITE_PUBLIC_ID
+				'3_LWEqlk8JG3sWKoH'
 			)
 			.then(
 				result => {
