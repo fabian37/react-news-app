@@ -15,12 +15,9 @@ export const context = createContext();
 
 const App = () => {
 	const [user, setUser] = useState(false);
-	console.log(user);
 	const [category, setCategory] = useState('all');
 	const [news, setNews] = useState([]);
 	const [search, setSearch] = useState(false);
-	console.log(news);
-
 	useEffect(() => {
 		setNews([]);
 		get(category)
@@ -29,7 +26,6 @@ const App = () => {
 			})
 			.catch(error => console.log('something went wrong: ' + error));
 	}, [category]);
-
 	return (
 		<BrowserRouter>
 			<context.Provider

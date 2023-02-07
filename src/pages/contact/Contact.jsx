@@ -8,10 +8,10 @@ export const Contact = () => {
 		e.preventDefault();
 		emailjs
 			.sendForm(
-				'service_6gpsp38',
-				'template_eym39kf',
+				import.meta.env.VITE_SERVICE_ID,
+				import.meta.env.VITE_TEMPLATE_ID,
 				form.current,
-				'3_LWEqlk8JG3sWKoH'
+				import.meta.env.VITE_PUBLIC_ID
 			)
 			.then(
 				result => {
@@ -52,7 +52,6 @@ export const Contact = () => {
 					placeholder='Enter your message...'
 					required
 				></textarea>
-
 				<button type='submit' className={styles.contactButton}>
 					Send
 				</button>
