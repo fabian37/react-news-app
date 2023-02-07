@@ -9,7 +9,7 @@ export const Contact = () => {
 		emailjs
 			.sendForm(
 				'service_6gpsp38',
-				import.meta.env.VITE_TEMPLATE_ID,
+				'template_eym39kf',
 				form.current,
 				'3_LWEqlk8JG3sWKoH'
 			)
